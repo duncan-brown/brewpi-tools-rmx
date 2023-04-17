@@ -59,8 +59,8 @@ init() {
         CMDLINE="curl -L $LINK | sudo bash"
     fi
     # These should stay the same
-    GITRAW="https://raw.githubusercontent.com/brewpi-remix"
-    GITHUB="https://github.com/brewpi-remix"
+    GITRAW="https://raw.githubusercontent.com/duncan-brown"
+    GITHUB="https://github.com/duncan-browm"
     # Cobble together some strings
     SCRIPTNAME="${THISSCRIPT%%.*}"
     GITPROJ="${PACKAGE,,}"
