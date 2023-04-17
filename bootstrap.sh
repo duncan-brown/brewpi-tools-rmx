@@ -46,7 +46,7 @@ declare BGBLK BGRED BGGRN BGYLW BGBLU BGMAG BGCYN BGWHT BGRST DOT HHR LHR RESET
 # Set branch
 if [ -z "$BRANCH" ]; then GITBRNCH="master"; else GITBRNCH="$BRANCH"; fi
 THISSCRIPT="bootstrap.sh"
-LINK="https://raw.githubusercontent.com/brewpi-remix/brewpi-tools-rmx/$GITBRNCH/bootstrap.sh"
+LINK="https://raw.githubusercontent.com/duncan-brown/brewpi-tools-rmx/$GITBRNCH/bootstrap.sh"
 
 ############
 ### Init
@@ -57,8 +57,8 @@ init() {
     PACKAGE="BrewPi-Tools-RMX"
     CMDLINE="curl -L $LINK | BRANCH=$GITBRNCH sudo bash"
     # These should stay the same
-    GITRAW="https://raw.githubusercontent.com/brewpi-remix"
-    GITHUB="https://github.com/brewpi-remix"
+    GITRAW="https://raw.githubusercontent.com/duncan-brown"
+    GITHUB="https://github.com/duncan-brown"
     # Cobble together some strings
     SCRIPTNAME="${THISSCRIPT%%.*}"
     GITPROJ="${PACKAGE,,}"
